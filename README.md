@@ -1,8 +1,8 @@
 # Catalin Iliescu
 
-AI Infrastructure / GenAI Solutions Engineer focused on practical LLM systems, cloud infrastructure, local AI labs, and enterprise GenAI architecture.
+AI Infrastructure / GenAI Solutions Engineer focused on practical LLM systems, local AI labs, cloud systems infrastructure, GPU architecture, and enterprise GenAI architecture.
 
-I combine enterprise solution engineering experience with hands-on AI infrastructure work: local LLM inference, agent workflows, model evaluation, GPU/runtime constraints, memory and retrieval layers, and cloud deployment patterns.
+I combine cloud systems infrastructure and solution engineering experience with hands-on AI infrastructure work: local LLM inference, agent workflows, model evaluation, GPU architecture and hardware constraints, memory and retrieval layers, and cloud deployment patterns.
 
 ## Current focus
 
