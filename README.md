@@ -20,6 +20,7 @@ from-scratch agentic workflow control plane, and durable multi-agent memory syst
 - **Odysseus Vault Mode** — a downstream privacy/isolation feature for sensitive AI sessions
   (local-model-only execution, isolated from normal memory/RAG/agentic context), structured
   as an upstream feature proposal.
+  Some systems are private/local-first; public repositories here document architecture, reproducible labs, upstream contributions, and selected safe artifacts.
 
 ## Public open-source contributions
 
