@@ -1,61 +1,52 @@
 # Catalin Iliescu
 
-AI Infrastructure / GenAI Solutions Engineer focused on practical LLM systems, local AI labs, cloud systems infrastructure, GPU architecture, and enterprise GenAI architecture.
+**Systems Engineer and hands-on AI systems builder** — almost 20 years in enterprise
+infrastructure and customer-facing solution design, now focused on self-directed
+**agentic AI engineering**: multi-agent orchestration, LLMOps, local LLM inference,
+model evaluation, and memory/retrieval architecture.
 
-I combine infrastructure and systems solution engineering experience with hands-on AI infrastructure work: local LLM inference, agent workflows, model evaluation, GPU architecture and hardware constraints, memory and retrieval layers, and cloud deployment patterns.
+I design and build agentic AI systems end-to-end and contribute upstream to popular
+open-source AI projects. My work spans a local/cloud LLM lab on an RTX 4090, a
+from-scratch agentic workflow control plane, and durable multi-agent memory systems.
 
-I am currently building toward AI infrastructure, LLMOps, AI platform engineering, and GenAI solution architecture roles.
+## What I build
 
-## Current focus
+- **CMC OS** — a local-first agentic workflow control plane that turns vague goals into
+  structured design, Pipeline/Kanban work items, agent + tool execution, and test/audit
+  gates, with human escalation only at risk or decision points. Companion Android app in design.
+- **Hermes Agent** — a 7-role multi-agent system (generalist, coder, auditor, orchestrator,
+  ops, pr-scout, researcher) with a Mixture-of-Agents "LLM council" + judge for high-stakes
+  decisions, over durable memory (append-only JSONL + SQLite FTS5 + RRF hybrid retrieval).
+- **Odysseus Vault Mode** — a downstream privacy/isolation feature for sensitive AI sessions
+  (local-model-only execution, isolated from normal memory/RAG/agentic context), structured
+  as an upstream feature proposal.
 
-* AI infrastructure and LLM deployment patterns
-* Local and cloud/hybrid LLM workflows
-* Local LLM inference and model evaluation
-* Agentic AI workflows and multi-model agent architecture
-* GPU architecture and AI hardware constraints
-* Memory and retrieval layers for AI agents
-* Enterprise GenAI readiness, governance, and architecture
+## Public open-source contributions
 
-## Public portfolio
+**22 public PRs (21 merged)** hardening two popular open-source AI platforms — tests,
+integrity checks, safe deployment, and upstream-friendly documentation.
 
-My GitHub is currently focused on two areas:
+- **Oprel** (local-AI platform) — 15 merged PRs: binary provenance, SHA256/size integrity
+  checks, safe download cleanup, verified manifest entries, deployment guides, CI smoke/link checks.
+- **Odysseus** (self-hosted AI workspace, 80k+ stars) — 7 PRs (6 merged, 1 open): memory
+  owner-isolation tests, webhook test isolation, hardware-fit CPU fallback, CORS/proxy docs,
+  server metadata preservation, provider detection.
 
-1. **AI infrastructure lab notes and architecture thinking**
-   Practical notes from my local LLM lab, model evaluation work, agent architecture experiments, memory/retrieval thinking, and enterprise GenAI readiness checklists.
+## Focus areas
 
-2. **Open-source contribution practice**
-   Focused public contributions such as bug fixes, tests, documentation improvements, and small scoped pull requests.
+- **Agentic AI:** multi-agent orchestration, LLM councils / Mixture-of-Agents, tool calling, MCP
+- **LLMOps & inference:** local/cloud LLMs, llama.cpp/GGUF, quantization, KV-cache, long-context, cost/latency/reliability trade-offs
+- **Memory & retrieval:** SQLite FTS5, semantic + hybrid retrieval, RRF ranking, memory architecture
+- **AI infrastructure:** GPU/CPU workload placement, model-role separation, model evaluation for real engineering tasks
+- **Enterprise foundation:** ~20 years infrastructure + customer-facing solution design
 
 ## Featured repositories
 
-* [`local-llm-lab`](https://github.com/catalini82/local-llm-lab)
-  Practical notes around local LLM inference, AI agents, model evaluation, memory/retrieval, and GPU/hardware constraints.
-
-* [`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists)
-  Working checklists for GenAI production readiness, AI infrastructure readiness, LLMOps, governance, security, and enterprise adoption.
-
-* [`odysseus`](https://github.com/catalini82/odysseus)
-  Fork used for public contribution practice and AI-agent workflow exploration.
-
-## Areas I work with
-
-* **Cloud systems infrastructure:** enterprise infrastructure, solution engineering, architecture discussions
-* **AI infrastructure:** local/cloud model workflows, inference constraints, LLMOps thinking
-* **GPU architecture:** hardware-level GPU understanding applied to AI infrastructure learning
-* **LLM systems:** local LLMs, inference runtimes, quantization, long-context workflows
-* **AI agents:** agentic workflows, orchestration, tools, memory/retrieval layers
-* **Model evaluation:** model comparison, prompt robustness, coding/reasoning reliability
-* **Enterprise GenAI:** readiness, governance, security, production-readiness, architecture checklists
-
-## Career direction
-
-I am not presenting myself as someone who has already owned large production Enterprise AI Architecture programs end-to-end.
-
-My background is in infrastructure and systems solution engineering, and I am intentionally moving deeper into AI infrastructure, LLMOps, AI platform engineering, and GenAI solution architecture.
-
-This GitHub profile documents that transition through practical lab work, structured architecture notes, model evaluation methodology, and public open-source contribution practice.
+- [`local-llm-lab`](https://github.com/catalini82/local-llm-lab) — practical local LLM inference, agents, model evaluation, memory/retrieval, and GPU/hardware constraints.
+- [`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists) — GenAI production-readiness, LLMOps, governance, and adoption checklists.
+- [`odysseus`](https://github.com/catalini82/odysseus) — fork used for upstream contribution work and agent-workflow exploration.
 
 ## Links
 
-* LinkedIn: https://www.linkedin.com/in/catalin-iliescu-64989755/
-* GitHub: https://github.com/catalini82
+- LinkedIn: https://www.linkedin.com/in/catalin-iliescu-64989755/
+- GitHub: https://github.com/catalini82
