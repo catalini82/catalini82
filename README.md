@@ -44,6 +44,8 @@ integrity checks, safe deployment, and upstream-friendly documentation.
 
 ## Featured repositories
 
+- [`cmc-os-architecture`](https://github.com/catalini82/cmc-os-architecture) — public architecture notes for CMC OS, a local-first agentic workflow control plane for structured work, agent/tool execution, audit gates, MCP integration, and human-in-the-loop workflows.
+- [`hermes-agent-architecture`](https://github.com/catalini82/hermes-agent-architecture) — public architecture notes for my Hermes-based multi-agent system: role-specialized profiles, LLM council/judge orchestration, durable memory, hybrid retrieval, and recall/ingest controls.
 - [`local-llm-lab`](https://github.com/catalini82/local-llm-lab) — practical local LLM inference, agents, model evaluation, memory/retrieval, and GPU/hardware constraints.
 - [`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists) — GenAI production-readiness, LLMOps, governance, and adoption checklists.
 - [`odysseus`](https://github.com/catalini82/odysseus) — fork used for upstream contribution work and agent-workflow exploration.
