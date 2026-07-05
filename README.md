@@ -21,7 +21,7 @@ from-scratch agentic workflow control plane, and durable multi-agent memory syst
   (local-model-only execution, isolated from normal memory/RAG/agentic context), structured
   as an upstream feature proposal.
   
-  Some systems are private/local-first; public repositories here document architecture, reproducible labs, upstream contributions, and selected safe artifacts.
+Some systems are private/local-first; public repositories here document architecture, reproducible labs, upstream contributions, and selected safe artifacts.
 
 ## Public open-source contributions
 
