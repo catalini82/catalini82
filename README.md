@@ -5,23 +5,40 @@ in enterprise infrastructure and customer-facing solution engineering, now focus
 self-directed **agentic AI engineering**: multi-agent orchestration, LLMOps, local LLM
 inference, model evaluation, and memory/retrieval architecture.
 
-I design and build agentic AI systems from scratch and run them in production for my own
-work — actively adding features, fixes, and optimizations — and I contribute upstream to
-popular open-source AI projects.
+I build agentic AI systems from scratch and run them in production for my own work —
+actively adding features, fixes, and optimizations — and I contribute upstream to popular
+open-source AI projects.
 
 ## What I build
 
-- **CMC OS** — a local-first agentic workflow control plane that turns vague goals into
-  structured design, Pipeline/Kanban work items, agent + tool execution, and test/audit
-  gates, with human escalation only at risk or decision points. Running in production for
-  my own workflows; companion Android app in design, with ongoing features and optimizations.
-- **Hermes Agent** — a 7-role multi-agent system (generalist, coder, auditor, orchestrator,
-  ops, pr-scout, researcher) with a Mixture-of-Agents "LLM council" + judge for high-stakes
-  decisions, over durable memory (append-only JSONL + SQLite FTS5 + RRF hybrid retrieval).
-  In active use and continuously improved.
+- **[CMC OS](https://github.com/catalini82/cmc-os-architecture)** — a local-first agentic
+  workflow control plane that turns vague goals into structured design, Pipeline/Kanban work
+  items, agent + tool execution, and test/audit gates, with human escalation only at risk or
+  decision points. Running in production for my own workflows, under active development;
+  companion Android app in design. (Public architecture notes + Mermaid diagrams.)
+- **[Hermes Agent](https://github.com/catalini82/hermes-agent-architecture)** — a 7-role
+  multi-agent system (generalist, coder, auditor, orchestrator, ops, pr-scout, researcher)
+  with a Mixture-of-Agents "LLM council" + judge for high-stakes decisions, over durable
+  memory (append-only JSONL + SQLite FTS5 + RRF hybrid retrieval). In active use and
+  continuously improved. (Public architecture notes + Mermaid diagrams.)
 - **Odysseus Vault Mode** — a downstream privacy/isolation feature for sensitive AI sessions
   (local-model-only execution, isolated from normal memory/RAG/agentic context), structured
   as an upstream feature proposal.
+
+## Pinned repositories
+
+- **[`cmc-os-architecture`](https://github.com/catalini82/cmc-os-architecture)** — public
+  architecture notes for CMC OS: multi-agent orchestration, MCP/tool execution, audit gates,
+  and human-in-the-loop AI workflows.
+- **[`hermes-agent-architecture`](https://github.com/catalini82/hermes-agent-architecture)** —
+  public architecture notes for my Hermes-based multi-agent system: role-specialized agents,
+  LLM council/judge orchestration, durable memory, hybrid retrieval, and local AI operations.
+- **[`local-llm-lab`](https://github.com/catalini82/local-llm-lab)** — practical local LLM lab:
+  inference runtimes, AI agents, LLM evaluation, memory/retrieval, and GPU infrastructure.
+- **[`odysseus`](https://github.com/catalini82/odysseus)** — fork of a popular self-hosted AI
+  workspace (80k+ stars), used for upstream contribution work and agent-workflow exploration.
+- **[`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists)** —
+  practical enterprise GenAI architecture, readiness, governance, security, and LLMOps checklists.
 
 ## Public open-source contributions
 
@@ -41,12 +58,6 @@ integrity checks, safe deployment, and upstream-friendly documentation.
 - **Memory & retrieval:** SQLite FTS5, semantic + hybrid retrieval, RRF ranking, memory architecture
 - **AI infrastructure:** GPU/CPU workload placement, model-role separation, model evaluation for real engineering tasks
 - **Enterprise foundation:** ~20 years infrastructure + customer-facing solution engineering
-
-## Featured repositories
-
-- [`local-llm-lab`](https://github.com/catalini82/local-llm-lab) — practical local LLM inference, agents, model evaluation, memory/retrieval, and GPU/hardware constraints.
-- [`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists) — GenAI production-readiness, LLMOps, governance, and adoption checklists.
-- [`odysseus`](https://github.com/catalini82/odysseus) — fork used for upstream contribution work and agent-workflow exploration.
 
 ## Links
 
