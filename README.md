@@ -1,27 +1,27 @@
 # Catalin Iliescu
 
-**Systems Engineer and hands-on AI systems builder** — almost 20 years in enterprise
-infrastructure and customer-facing solution design, now focused on self-directed
-**agentic AI engineering**: multi-agent orchestration, LLMOps, local LLM inference,
-model evaluation, and memory/retrieval architecture.
+**Senior Systems Solution Engineer and hands-on applied AI systems builder** — almost 20 years
+in enterprise infrastructure and customer-facing solution engineering, now focused on
+self-directed **agentic AI engineering**: multi-agent orchestration, LLMOps, local LLM
+inference, model evaluation, and memory/retrieval architecture.
 
-I design and build agentic AI systems end-to-end and contribute upstream to popular
-open-source AI projects. My work spans a local/cloud LLM lab on an RTX 4090, a
-from-scratch agentic workflow control plane, and durable multi-agent memory systems.
+I design and build agentic AI systems from scratch and run them in production for my own
+work — actively adding features, fixes, and optimizations — and I contribute upstream to
+popular open-source AI projects.
 
 ## What I build
 
 - **CMC OS** — a local-first agentic workflow control plane that turns vague goals into
   structured design, Pipeline/Kanban work items, agent + tool execution, and test/audit
-  gates, with human escalation only at risk or decision points. Companion Android app in design.
+  gates, with human escalation only at risk or decision points. Running in production for
+  my own workflows; companion Android app in design, with ongoing features and optimizations.
 - **Hermes Agent** — a 7-role multi-agent system (generalist, coder, auditor, orchestrator,
   ops, pr-scout, researcher) with a Mixture-of-Agents "LLM council" + judge for high-stakes
   decisions, over durable memory (append-only JSONL + SQLite FTS5 + RRF hybrid retrieval).
+  In active use and continuously improved.
 - **Odysseus Vault Mode** — a downstream privacy/isolation feature for sensitive AI sessions
   (local-model-only execution, isolated from normal memory/RAG/agentic context), structured
   as an upstream feature proposal.
-  
-Some systems are private/local-first; public repositories here document architecture, reproducible labs, upstream contributions, and selected safe artifacts.
 
 ## Public open-source contributions
 
@@ -40,12 +40,10 @@ integrity checks, safe deployment, and upstream-friendly documentation.
 - **LLMOps & inference:** local/cloud LLMs, llama.cpp/GGUF, quantization, KV-cache, long-context, cost/latency/reliability trade-offs
 - **Memory & retrieval:** SQLite FTS5, semantic + hybrid retrieval, RRF ranking, memory architecture
 - **AI infrastructure:** GPU/CPU workload placement, model-role separation, model evaluation for real engineering tasks
-- **Enterprise foundation:** ~20 years infrastructure + customer-facing solution design
+- **Enterprise foundation:** ~20 years infrastructure + customer-facing solution engineering
 
 ## Featured repositories
 
-- [`cmc-os-architecture`](https://github.com/catalini82/cmc-os-architecture) — public architecture notes for CMC OS, a local-first agentic workflow control plane for structured work, agent/tool execution, audit gates, MCP integration, and human-in-the-loop workflows.
-- [`hermes-agent-architecture`](https://github.com/catalini82/hermes-agent-architecture) — public architecture notes for my Hermes-based multi-agent system: role-specialized profiles, LLM council/judge orchestration, durable memory, hybrid retrieval, and recall/ingest controls.
 - [`local-llm-lab`](https://github.com/catalini82/local-llm-lab) — practical local LLM inference, agents, model evaluation, memory/retrieval, and GPU/hardware constraints.
 - [`enterprise-ai-architecture-checklists`](https://github.com/catalini82/enterprise-ai-architecture-checklists) — GenAI production-readiness, LLMOps, governance, and adoption checklists.
 - [`odysseus`](https://github.com/catalini82/odysseus) — fork used for upstream contribution work and agent-workflow exploration.
